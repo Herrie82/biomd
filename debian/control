@@ -3,7 +3,7 @@ Maintainer: Bardia Moshiri <bardia@furilabs.com>
 Section: misc
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
-               libgbinder-dev,
+               libgbinder-dev (>= 1.1.48),
                libglib2.0-dev,
                libsqlite3-dev,
                dh-python,
